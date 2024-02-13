@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/valintinday/static/css/main.0c9a158e.css",
-    "main.js": "/valintinday/static/js/main.1596737a.js",
-    "static/js/592.2616f211.chunk.js": "/valintinday/static/js/592.2616f211.chunk.js",
-    "static/media/fon.gif": "/valintinday/static/media/fon.f125375b2d8be8527e02.gif",
-    "static/media/background.jpg": "/valintinday/static/media/background.84a93d4b4b7681064260.jpg",
-    "static/media/bear.gif": "/valintinday/static/media/bear.5901b1569e534f728ab9.gif",
-    "static/media/Billabong Cyr.ttf": "/valintinday/static/media/Billabong Cyr.abe62e2e5b392a89f136.ttf",
-    "index.html": "/valintinday/index.html",
-    "main.0c9a158e.css.map": "/valintinday/static/css/main.0c9a158e.css.map",
-    "main.1596737a.js.map": "/valintinday/static/js/main.1596737a.js.map",
-    "592.2616f211.chunk.js.map": "/valintinday/static/js/592.2616f211.chunk.js.map"
+    "main.css": "/Feb14/static/css/main.b6d9f563.css",
+    "main.js": "/Feb14/static/js/main.03587a70.js",
+    "static/js/592.2616f211.chunk.js": "/Feb14/static/js/592.2616f211.chunk.js",
+    "static/media/fon.gif": "/Feb14/static/media/fon.f125375b2d8be8527e02.gif",
+    "static/media/background.jpg": "/Feb14/static/media/background.84a93d4b4b7681064260.jpg",
+    "static/media/bear.gif": "/Feb14/static/media/bear.5901b1569e534f728ab9.gif",
+    "static/media/Billabong Cyr.ttf": "/Feb14/static/media/Billabong Cyr.abe62e2e5b392a89f136.ttf",
+    "index.html": "/Feb14/index.html",
+    "main.b6d9f563.css.map": "/Feb14/static/css/main.b6d9f563.css.map",
+    "main.03587a70.js.map": "/Feb14/static/js/main.03587a70.js.map",
+    "592.2616f211.chunk.js.map": "/Feb14/static/js/592.2616f211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c9a158e.css",
-    "static/js/main.1596737a.js"
+    "static/css/main.b6d9f563.css",
+    "static/js/main.03587a70.js"
   ]
 }
