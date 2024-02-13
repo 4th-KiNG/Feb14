@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Billabong Cyr"; 
+  src: url("./fonts/Billabong Cyr.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+.list{
+  width: 150px;
+  height: 220px;
+  background-color: rgb(255, 148, 223);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.list::-webkit-scrollbar {
+  width: 0;
+}
+
+.ps{
+  margin-left: 55px;
+  margin-top: -20px;
+}
+
+.screen{
+  background-image: url('./assets/background.jpg');
+  height: 900px;
+  margin-top: -100px;
+}
+
+.title{
+  display: block;
+  text-align: center;
+  padding-top: 160px;
+  font-family: Billabong Cyr;
+  font-size: 20px;
+}
+
+.bear{
+  width: 50px;
+  margin-left: auto;
+}
+
+.convert{
+  margin-top: 100px;
+  display: flex;
+  width: 300px;
+  height: 195px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 144, 163);
+  border-radius: 10px;
+  
+}
+
+.shake{
+  animation: 1s infinite shake;
+}
+
+p{
+  font-family: Billabong Cyr;
+  margin: 0;
+  font-size: 10.5px;
+}
+
+.front-of-convert{
+  width: 100%;
+  padding: 5px;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+  
+  z-index: -1;
+}
+
+.animoflist{
+  animation: 3s 1 both openconvert;
+}
+
+.close{
+  visibility: hidden;
+}
+
+.polygon.right{
+  clip-path: polygon(
+    -2% -2%,
+                   51% 50%,
+                   0% 101%);
+  display: flex;
+  position: absolute;
+  overflow: visible;
+  z-index: 2;
+  justify-content: flex-start;
+  height: 220px;
+  background-color: pink;
+  width: 100%;
+}
+
+.polygon.left{
+  clip-path: polygon(
+    101% -2%,
+                   49% 50%,
+                   101% 102%);
+  display: flex;
+  position: absolute;
+  overflow: visible;
+  z-index: 2;
+  justify-content: flex-start;
+  height: 220px;
+  background-color: pink;
+  width: 100%;
+}
+.polygon.container{
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px rgb(255, 78, 78);
+}
+.polygon.bot{
+  clip-path: polygon(
+    0% 100%,
+                   50% 50%,
+                   100% 100%);
+  display: flex;
+  position: absolute;
+  overflow: visible;
+  z-index: 2;
+  justify-content: flex-start;
+  height: 220px;
+  background-color: pink;
+  width: 100%;
+}
+
+.polygon.top{
+  
+  display: flex;
+  position: absolute;
+  overflow: visible;
+  z-index: 1;
+  justify-content: flex-start;
+  height: 400px;
+  margin-top: -200px;
+  background-color: red;
+  width: 295px;
+  transition: all 300ms;
+
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+@keyframes openconvert{
+  0%{
+    z-index: 2;
+  }
+  50%{
+    transform: translateY(-200px);
+  }
+  60%{
+    z-index: 3;
+  }
+  80%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: scale(2.5);
+    z-index: 3;
+  }
+}
+
